@@ -7,19 +7,20 @@ class Circuit
 {
 private:
 
-
+	int _resistance;
 	
 public:
 	
-
 	
-	~Circuit();
+	
+	
 	Circuit() = default;
 	
-	Circuit(int arrayOne[], int arrayTwo[]);
-	//I get an error when I make this an array of 3 values, so i made four
-	int arrayOne[3] = { 1, 2, 3};
-	int arrayTwo[3] = { 1, 2, 3};
+	Circuit(int resistance) {
+		
+		resistance = _resistance;
+	};
+	
 	
 	
 };

@@ -10,7 +10,7 @@ int main()
     Circuit* pHeapCircuit = new Circuit();
     delete pHeapCircuit;
 
-    ~Circuit();
+    
 
 }
 
